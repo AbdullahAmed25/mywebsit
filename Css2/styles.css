@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1,h2,h3,h4,h5{
+  font-family: 'Montserrat', sans-serif ;
+}
+
+
+p{
+  color: #8f8f8f;
+
+}
+
+/* ---------section 1---------- */
+
+#title-heading{
+  text-align: left;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.5;
+}
+
+
+
+#container-fluid {
+    padding: 3% 15%
+  }
+  .navbar{
+    position: relative;
+    z-index: 2;
+    padding-bottom: 2rem ;
+  }
+  .navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 1.8rem ;
+    font-weight: bold;
+  }
+.nav-item{
+    padding: 0 15px;
+}
+
+.btn{
+    margin:3rem 0.5rem 2rem 0.5rem;
+
+}
+
+ .Catimg{
+    position: absolute;
+   left: 700px;
+    top: 60px;
+    width: 30%;
+    transform: rotate(15deg);
+  }
+  @media(max-width:990px){
+    .Catimg{
+      position:static;
+      width: 100%;
+      transform: rotate(0);
+
+    }
+    #title{
+      text-align: center;
+    }
+  }
+
+
+  /* ----------Features------ */
+
+  #features{
+    background-color: rgb(255, 255, 255);
+    padding:  7% 15%;
+  position: relative;
+    z-index: 1;
+  }
+    #feature-heading{
+      font-weight: 800;
+      font-size: 1.3rem ;
+
+    }
+  .feature-box{
+
+  padding: 4%;
+  }
+
+.feature-icon{
+color: #5bc0de;
+margin-bottom: 1rem;
+}
+.feature-icon:hover{
+  color:rgb(13,202,240);
+}
+/* ------------testimonial-------- */
+#testimonials{
+background-color: #5bc0de;
+  line-height: 1.5 ;
+  color: #fff ;
+ padding-bottom: 5%;
+
+
+}
+.testimonial-image{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+ margin: 20px;
+}
+#testimonial-text{
+  padding: 5%  15% 0;
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 2.7rem;
+  }
+/* --------press------- */
+#press{
+  background-color: #5bc0de;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15% ;
+  margin: 20px 20px 20px 50px;
+
+}
+
+/* =====carousel===== */
+.carousel-indicators{
+
+  padding: 7% 15% ;
+}
+
+/* ============pricing========= */
+#pricing{
+  padding: 5% 7% 5%;
+
+}
+.Mastiff-btn{
+  margin-top: 2px ;
+}
+#Pricing-Title{
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 2.7rem;
+}
+#Pricing-Heading{
+  font-weight: 800;
+  line-height: 1.5;
+  font-size: 2rem;
+}
+#Pricing-Body-Heading{
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 2.7rem;
+}
+/* ============cta============= */
+#cta{
+
+  color: #fff;
+
+  padding: 10% 10% 7%;
+}
+#cta-title{
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+/* ==================footer============== */
+#footer{
+  background-color: #fff;
+
+  padding: 2%;
+}
+.footer-icon{
+  color: black;
+  padding:3% 0.5%;
+}
